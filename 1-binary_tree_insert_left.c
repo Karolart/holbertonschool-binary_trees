@@ -1,6 +1,5 @@
 #include "binary_trees.h"
 #include <stdlib.h>
-
 /**
  * binary_tree_node_1 - creates a binary tree node
  * @parent: parnt of the node to create
@@ -17,7 +16,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 
 	new = binary_tree_node(parent, value);
 	if (new == NULL)
-		return (NULL);
+	    	return (NULL);
 
 	if (parent->left != NULL)
 	{
